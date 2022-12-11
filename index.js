@@ -6,3 +6,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
 })
 
 document.oncontextmenu = function () { return false }
+
+window.onload = function ()
+// Para internet Explorer
+{
+    document.onselectstart = function () { return false; }
+    // Para Firefox
+    document.onmousedown = function () { return false; }
+}
