@@ -53,7 +53,7 @@ header {
 
 .navbar1 {
   background-color: #ffffff;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -66,6 +66,7 @@ header {
 .colortexnav {
   color: #000000;
   text-shadow: 1px 1px 2px #000000;
+  background-color: #ffffff;
 }
 
 .colortexnav:hover {
@@ -232,11 +233,11 @@ hr {
   height: 100vh;
   background-color: #000;
   z-index: 200;
-  color: #ffffff;  
+  color: #ffffff;
   text-align: center;
   line-height: 90vh;
   font-family: 'Bank Gothic', sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   text-shadow: 2px 2px 2px #696969dc;
 }
 
@@ -253,7 +254,7 @@ hr {
   text-align: center;
   line-height: 90vh;
   font-family: 'Bank Gothic', sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   text-shadow: 2px 2px 2px #696969dc;
   transition: all 2s;
 }
@@ -266,7 +267,7 @@ hr {
   }
 }
 
-.fade-in{
+.fade-in {
   opacity: 0;
   animation: fadeIn 1s ease-in forwards;
 }
